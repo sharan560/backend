@@ -9,7 +9,7 @@ server.use(cors());//
 require('dotenv').config();
 // configuring env file
 //assign a port number
-const port=5000;
+const port=6000;
 const mongoURI = process.env.mongo_uri;
 mongoose.connect(mongoURI)
 .then(() => {
